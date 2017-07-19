@@ -1,0 +1,169 @@
+/*alibaba iconfont*/
+@font-face {
+  font-family: 'iconfont';  /* project id 355230 */
+  src: url('//at.alicdn.com/t/font_pkr3s00kjmtxzuxr.eot');
+  src: url('//at.alicdn.com/t/font_pkr3s00kjmtxzuxr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_pkr3s00kjmtxzuxr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_pkr3s00kjmtxzuxr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_pkr3s00kjmtxzuxr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*header*/
+.header{width: 100%; height: 80px; background:#464C5B;min-width: 1200px;}
+.header-box{width: 1200px; margin: 0 auto;}
+.header-box h1{ display: block; height: 60px; float: left; margin: 10px 0px;}
+.header-box h1 img{height: 60px;}
+.head-nav ul{margin-left:160px;}
+.head-nav ul li{float: left; line-height: 80px;width: 120px;text-align: center;}
+.head-nav ul li a{color: #CCCCCC; height: 80px;}
+.head-nav ul li:hover{background: #1ABC9C;}
+.head-nav ul li:hover a{color:#ffffff;}
+.header-box .head-search{ width: 270px; height: 30px; background:#ffffff; border-radius: 30px;overflow:hidden;float: left; margin: 25px;position: relative;}
+.header-box .head-search input{ line-height: 30px; border: none;color:#CCCCCC;width: 180px;float: left;}
+.header-box select{ line-height:30px; height: 30px; border: none; margin-left:8px;float: left;}
+.header-box .head-search i{cursor:pointer;font-size: 22px; line-height: 30px;}
+.head-pro{float: right;}
+.head-pro li{float:left; line-height: 80px; width: 100px; text-align: center;}
+.head-pro li a{color:#CCCCCC;}
+/*list*/
+.concent{width:100%; height:auto; margin-top: 40px;float: left; }
+.concent-box{width: 1200px; height: auto; margin: 0 auto;min-height: 415px;}
+.concent-box .main{width: 800px; height: auto;float: left;}
+.concent-box .aside{width: 370px; margin-left: 30px;float: left;}
+/*list-main*/
+.concent-box .main ul li{width: 800px; height: 190px; border: #CCCCCC solid 1px; margin-bottom: 20px; border-radius: 5px;}
+.concent-box .main ul li:hover{ -moz-box-shadow:0px 2px 10px #333333; -webkit-box-shadow:0px 2px 10px #333333; box-shadow:0px 2px 10px #999999;}
+.concent-box .main ul li{width: 800px; height: 190px; border: #CCCCCC solid 1px;}
+.listinfor .list-img{ width: 180px; height: 150px; overflow: hidden;float: left; margin: 20px 10px;}
+.listinfor .list-img img{width: auto;height: 150px;}
+.list-con{width:500px; float: left; height: 190px;}
+.list-con h3{font-size: 20px;margin-top: 10px; line-height: 40px;font-weight:normal;}
+.list-con h3 a{color:#333333;}
+.list-tag{width:100px; float: right; margin-top: 44px;}
+.list-tag span{display: block; width: 86px;float: right; text-align: center;}
+.comedata span{color:#666666;font-size: 12px; margin-right: 10px;}
+.comedata{line-height: 40px;}
+.describe{line-height: 24px; height: 50px; width:100%; overflow: hidden;font-size: 14px; margin-bottom: 10px;}
+.art-data{color: #666666;font-size: 12px;}
+.art-data span{ margin-right: 10px;}
+.art-data span i{ margin: 0 4px;}
+.list-tag span{display: block;text-align: center; border-radius: 14px 0px 0px 14px; background:#FF9966;height:26px; line-height: 26px; width: 80px;overflow: hidden; margin-bottom: 10px;font-size: 13px;color: #ffffff;}
+
+/*侧边栏aside*/
+/*joinorg*/
+.joinorg{width: 370px; min-height: 100px; background: #FAFAFA;padding-bottom: 10px;float: left;border-radius: 4px;}
+.joinorg-title{ display: block;width:350px; padding: 10px;float: left;}
+.joinorg-title i{display: block; width: 2px; height: 18px; background:#464C5B;float: left; margin-right: 10px;}
+.joinorg-con{width: 330px; height: auto; margin: 10px; background: #ffffff; padding: 10px;float: left;}
+.joinorg-left{width:120px;float: left;}
+.joinorg-left img{width: 100px; height: 100px; margin: 10px 10px 0 10px;}
+.joinorg-left p{text-align: center;line-height: 30px;color: #666666;font-size:14px;}
+.joinorg-right{float: left; margin-top:10px;}
+.joinorg-right p{line-height: 28px;font-size:14px;text-align: left;color: #666666;}
+.joinorg-con:before{clear: both;}
+.joinorg-con:after{clear: both;}
+/*专题*/
+.zhuanti{width: 370px;float: left; margin-top: 20px; }
+.zhuanti-list{width: 370px; height:200px;position: relative;border-radius: 6px;overflow: hidden;}
+.zhuanti-list img{display: block;width: 100%; overflow: hidden;position: absolute;z-index: 1;}
+.zhuanti-con{width:350px; height: 180px; position:absolute;z-index: 2; background-image:linear-gradient(180deg,rgba(0,0,0,.05) 5%,rgba(0,0,0,.85));padding: 10px; bottom: 0px;}
+.zhuanti-list span{padding: 2px 8px; border:#ffffff solid 1px; border-radius: 10px;display: block;position: absolute; top: 10px;left: 20px;z-index: 3;color:#ffffff;background: #484a4a;}
+.zt-con{width: 350px; height: 124px; position: absolute;bottom: 0px;}
+.zt-con h3{color: #ffffff;font-size: 20px; line-height: 30px;margin-bottom: 20px;}
+.zt-con p{color: #ffffff; line-height: 20px;}
+.zhuanti li{margin-bottom: 20px;}
+
+/*footer*/
+.footer{width: 100%; height:110px; background:#464C5B;float: left; min-width: 1200px;}
+.footer-box{width: 1200px; height: 110px;margin: 0 auto;position: relative;}
+.logo-footer{float: left; height: 60px;margin: 25px;position: absolute; left: 0px;top: 0px;}
+.logo-footer img{height:60px; }
+.nav-footer{text-align:center; width: 100%; height: 40px;float:left; margin-top: 5px; }
+.nav-footer ul{margin: 0 auto;width:450px; height: 40px;}
+.nav-footer li{float: left; line-height: 40px; margin-right: 20px;}
+.nav-footer li a{color: #BDC3C7;font-size: 14px} 
+.footer-box p{font-size: 12px;color: #BDC3C7;text-align: center; line-height: 30px;}
+
+/*---------------------------详情页detail---------------------------------*/
+.detail{margin-bottom: 20px;}
+.detail-art{width:700px; padding:20px 50px ;float: left; border:#DDDDDD solid 1px; border-radius: 4px;overflow: hidden;}
+.art-title{}
+.art-title h1{font-size: 20px; line-height: 30px;}
+.art-title .comedata{float:left; line-height: 40px;}
+.art-title .art-data{float: right;line-height: 40px;}
+.art-con{}
+.art-con img{width: 100%; display: block; margin: 10px 0px;}
+.art-con p{font-family: "微软雅黑";font-size: 12px; line-height: 20px;}
+.art-foot{width: 100%; height: 50px; border-top:#CCCCCC solid 1px; margin-top: 30px;}
+.art-foot p{width:320px;float: left; margin-top: 20px; margin-left: 30px;}
+.art-foot p span{display: block;width: 120px; height: 30px; line-height: 30px;text-align: center; border-radius: 20px; border:#CCCCCC solid 1px; float: left; margin-right: 30px;font-size: 12px;color:#8C8C8C;cursor: pointer;}
+.art-foot p span:hover{ background: #464c5b; color: #FFFFFF; border:#464c5b solid 1px ;}
+.art-foot p span i{margin: 0 4px;}
+.detail-aside{margin-left: 28px!important;}
+.fabufangan p{padding: 20px 0px;font-size:14px;text-align: center;}
+.fabufangan a{display:block; line-height: 40px; height: 40px; text-align: center; background: #1ABC9C;color: #FFFFFF;width: 160px; margin: 0 auto; border-radius: 4px;}
+.guanjianci{margin-top: 20px;}
+.guanjianci .joinorg-con li{line-height: 30px;}
+.guanjianci .joinorg-con li i{display: block;width: 8px; height: 8px;box-shadow: #000000 -1px 1px 1px; border-radius: 10px; background:#16A085; border:solid 2px #FFFFFE; float: left; margin: 9px 5px;}
+.guanjianci .joinorg-con li a{font-size: 14px;color: #16A085;}
+
+/*---------------------------解决方案页面solution.html---------------------------------*/
+.solution{width: 1160px; min-height: 30px; margin: 0 auto;padding: 20px; border:#CCCCCC solid 1px; border-radius: 5px; margin-bottom: 40px;}
+.solution h3{height: 100%; display: inline-block;float: left;font-size: 16px;}
+.solution a{color: #4BA4DD;font-size: 14px; padding: 0 5px;}
+/*---------------------------专题页面subject.html---------------------------------*/
+.subject{width: 100%; height: auto;  margin-bottom: 30px; border:#DDDDDD solid 1px; border-radius: 8px;border-left: 5px solid #1ABC9C; }
+.subject-title{height: 60px; border-bottom: #DDDDDD solid 1px;}
+.subject-title h3{margin-left: 10px;line-height: 60px;}
+.subject-con{padding: 10px;}
+.subject-con p{line-height: 30px;font-size: 14px;}
+.subject-footer{margin-top:0px!important;}
+.subject-footer p{margin: 10px 20px 10px 60px!important;}
+/*---------------------------合作企业页面business_parters.html---------------------------------*/
+.parters-list{}
+.parters-list li{ height: auto!important; min-height: 190px;}
+.parter{padding: 15px;}
+.parter h3{line-height: 40px;}
+.parter h3 a{color: #4BA4DD;}
+.parter p{line-height: 28px;font-size: 12px;color: #666666;}
+.parter p span{padding: 1px 10px; border: #DDDDDD solid 1px;color:#666666; border-radius: 10px;font-size: 12px;}
+/*---------------------------企业主页business_homepage.html---------------------------------*/
+.homepage-top{width: 100%; height: auto; background:#f7faff; border-radius: 5px;float: left;}
+.homepage-left{width: 850px;float: left;padding: 10px;}
+.homepage-right{width:328px;float: left;border-left: #FFFFFF solid 2px; padding: 10px 0px;}
+.homepage-left h2{width: 600px;float: left;font-size: 20px; line-height: 40px; margin-bottom: 10px;}
+.homepage-left p{padding: 10PX 0PX; line-height: 20px;font-size: 14px;}
+.homepage-left .art-share{float: right!important;}
+.homepage-left .art-share span{border: #DDDDDD solid 1px; padding: 5px 10px; background: #FFFFFF; border-radius: 10px;font-size: 12px; margin-left: 10px; margin-right: 10px;cursor: pointer;}
+.homepage-left .art-share a{color: #3B3B3B;}
+.homepage-right span{width: 94%;display: block;line-height: 40px; margin-top: 10px;padding-left: 6%;}
+.homepage-right img{display: block;width: 100px; height: 100px; margin: 10px auto;}
+.homepage-right p{padding-left: 20px; text-align: left; line-height: 40px;font-size: 14px;}
+.homepage-con{float: left;width: 100%; margin: 20px 0px;}
+.homepage-con .xuanxiangka-list{width: 100%; border-bottom: #DDDDDD solid 1px;float: left;}
+.homepage-con .xuanxiangka-list li{float: left;border: #DDDDDD solid 1px; margin-bottom: -1px; line-height: 40px; text-align: center; width: 100px; border-radius: 4px 4px 0px 0px; margin-right: -1px;cursor: pointer;}
+.homepage-con .xuanxiangka-list .active{border-bottom: #FFFFFF solid 1px;}
+.homepage-main{float: left;padding: 20px 10px; margin-bottom: 20px; min-height: 200px;}
+.homepage-main li{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
